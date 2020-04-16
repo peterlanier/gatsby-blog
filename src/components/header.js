@@ -1,35 +1,53 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
+import Peter from "../images/peter.jpeg"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
+function Header({ siteTitle, pageContext }) {
+  const isBlog = pageContext == "blog" ? true : false
+  const backgroundColor = isBlog ? "transparent" : "#231C42"
+  const color = isBlog ? "black" : "white"
+
+  return (
+    <header
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        background: backgroundColor,
+        marginBottom: `1.45rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `1.45rem 1.0875rem`,
+        }}
+      >
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: color,
+              textDecoration: `none`,
+            }}
+          >
+            {isBlog && (
+              <img
+                src={Peter}
+                style={{
+                  maxWidth: "50px",
+                  borderRadius: "50%",
+                  marginBottom: "-15px",
+                }}
+              />
+            )}{" "}
+            {siteTitle}
+          </Link>
+        </h1>
+      </div>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
