@@ -1,13 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Peter from "../images/peter.jpeg"
 
-function Header({ siteTitle }) {
+function Hero({ siteTitle }) {
+
   return (
     <header
       style={{
-        background: `transparent`,
+        background: `#231C42`,
         marginBottom: `1.45rem`,
       }}
     >
@@ -26,15 +26,6 @@ function Header({ siteTitle }) {
               textDecoration: `none`,
             }}
           >
-            <img
-              src={Peter}
-              alt="avatar"
-              style={{
-                maxWidth: "50px",
-                borderRadius: "50%",
-                marginBottom: "-15px",
-              }}
-            />
             {siteTitle}
           </Link>
         </h1>
@@ -43,12 +34,12 @@ function Header({ siteTitle }) {
   )
 }
 
-Header.propTypes = {
+Hero.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Hero.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Hero

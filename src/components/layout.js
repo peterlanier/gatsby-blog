@@ -10,9 +10,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
 import Header from "./header"
+import Hero from "./hero"
 import "./layout.css"
 
 const Layout = ({ children, pageContext }) => {
+  const isHero = pageContext === "blog" ? false : true
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,10 +27,12 @@ const Layout = ({ children, pageContext }) => {
 
   return (
     <>
-      <Header
-        siteTitle={data.site.siteMetadata.title}
-        pageContext={pageContext}
-      />
+      {isHero ? (
+        <Hero siteTitle={data.site.siteMetadata.title} />
+      ) : (
+        <Header siteTitle={data.site.siteMetadata.title} />
+      )}
+
       <div
         style={{
           margin: `0 auto`,
