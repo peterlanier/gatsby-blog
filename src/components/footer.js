@@ -1,10 +1,19 @@
 import React from "react"
 
 const Footer = () => (
-  <footer>
-    © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+  <footer
+    style={{}}
+  >
+  <div
+      style={{
+      maxWidth: 720,
+      margin: `0 auto`,
+      padding: `1rem 1.0875rem`,
+    }}
+    >
+    Powered by Gatsby, React, GraphQL, Markdown |
+    © {new Date().getFullYear()}
+    </div>
   </footer>
 )
 

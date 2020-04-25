@@ -14,7 +14,7 @@ function Header({ siteTitle }) {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 720,
           padding: `1.45rem 1.0875rem`,
         }}
       >
@@ -33,6 +33,7 @@ function Header({ siteTitle }) {
                 maxWidth: "50px",
                 borderRadius: "50%",
                 marginBottom: "-15px",
+                marginRight: "15px",
               }}
             />
             {siteTitle}

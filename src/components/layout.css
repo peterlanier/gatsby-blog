@@ -262,6 +262,11 @@ h3 {
   font-size: 1.38316rem;
   line-height: 1.1;
 }
+
+h3.front {
+  margin-bottom: 0;
+}
+
 h4 {
   margin-left: 0;
   margin-right: 0;
@@ -597,10 +602,6 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
-}
-footer{
-  background-color: #231C42;
-  color: rgba(255,255,255,0.7);
 }
 
 header h1 {
