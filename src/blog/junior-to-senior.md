@@ -5,7 +5,7 @@ excerpt: "The fabled Udemy course with an ambitious goal and a wide scope. But d
 featuredImage: ../images/senior.jpg
 ---
 
-What is a senior developer? Am I a senior developer? How do I become a senior developer? In [*The Complete Junior to Senior Web Developer Roadmap*]('https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/'), Andrei Neagoie seeks to answer these questions.
+What is a senior developer? Am I a senior developer? How do I become a senior developer? In [*The Complete Junior to Senior Web Developer Roadmap*](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/), Andrei Neagoie seeks to answer these questions.
 
 First I'll outline the scope of the course. It's pretty wide.
 

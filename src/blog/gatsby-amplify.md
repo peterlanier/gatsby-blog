@@ -9,7 +9,7 @@ AWS Amplify provides developers with great tools for back-end solutions and robu
 
 Amplify is a full-stack service from AWS that provides rich tools for developers to save time deploying the common features we use on all projects such as authenticating users or storing and accessing data. It's also a great way to dip your toes in the serverless paradigm that everyone is talking about, by instantly deploying lambda functions, user pools, graphQL APIs to DynamoDB and more.
 
-For more on what AWS Amplify can do for your project, visit the [docs]('https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html').
+For more on what AWS Amplify can do for your project, visit the [docs](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html).
 
 I'm still well within my first year of the free-tier of AWS, so I thought I'd connect my Gatsby site for hosting.
 

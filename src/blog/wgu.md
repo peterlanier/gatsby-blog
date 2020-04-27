@@ -41,7 +41,7 @@ My expectations were low due to online schools having a reputation for lower sta
 
 I learned just how tough it is to study for, test, and pass industry certifications. Many of these certifications required proof of several years of experience to sit for (unless you were enrolled in an institution like WGU). These exams required hours, weeks and months of preperation and memorization. But if you passed the exam, you passed the course.
 
-The courses that didn't require passing a cert, were in many ways harder. I read 600 pages of [Operating System Concepts Essentials 2nd Edition]('https://www.amazon.com/Operating-Concepts-Essentials-Abraham-Silberschatz/dp/1118804929/ref=sr_1_4?ie=UTF8&qid=1540736554&sr=8-4&keywords=operating+systems+concepts') written by a Yale professor for his course. I also read and was tested on a 40 chapter database book: history, theory, application, emerging technologies, query languages, and advanced concepts. It was daunting.
+The courses that didn't require passing a cert, were in many ways harder. I read 600 pages of [Operating System Concepts Essentials 2nd Edition](https://www.amazon.com/Operating-Concepts-Essentials-Abraham-Silberschatz/dp/1118804929/ref=sr_1_4?ie=UTF8&qid=1540736554&sr=8-4&keywords=operating+systems+concepts) written by a Yale professor for his course. I also read and was tested on a 40 chapter database book: history, theory, application, emerging technologies, query languages, and advanced concepts. It was daunting.
 
 ## WGU Projects
 
@@ -49,9 +49,9 @@ Besides the exhaustive required reading and certification exams, many of the ass
 
 All of my projects required Java SE8. Some were standard applications and others were mobile apps. The assignments were designed to force you to use object-oriented principles such as inheritance, encapsulation, and polymorphism. They also required using certain advanced features of the language such as interfaces, lamba expressions, the Stream API, the Date/Time API, and JavaFX for UI.
 
-Here's an [inventory app]('https://github.com/peterlanier/inventory-app-javafx') I delivered.
+Here's an [inventory app](https://github.com/peterlanier/inventory-app-javafx) I delivered.
 
-And an [Android App]('https://github.com/peterlanier/android-schedule-planner-wgu') I delivered using Android Studio.
+And an [Android App](https://github.com/peterlanier/android-schedule-planner-wgu) I delivered using Android Studio.
 
 ## Conclusion
 

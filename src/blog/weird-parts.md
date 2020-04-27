@@ -19,4 +19,4 @@ Here are just a few of the concepts I came in with a vague knowledge of and came
 - Prototypal Inheritance
 - Immediately Invoked Function Expressions
 
-I don't care how long you've been using JavaScript, you should definitely [give this a watch]('https://www.udemy.com/course/understand-javascript/').
+I don't care how long you've been using JavaScript, you should definitely [give this a watch](https://www.udemy.com/course/understand-javascript/).

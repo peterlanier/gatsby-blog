@@ -13,9 +13,9 @@ But knowing what to expect on the exam can be intimidating. And you want to pass
 
 ### A Cloud Guru
 
-Many have cited [acloud.guru]('https://acloud.guru') as the best resource available for end-to-end training on how to use AWS as well as what to expect on the exam. This was true for me as well.
+Many have cited [acloud.guru](https://acloud.guru) as the best resource available for end-to-end training on how to use AWS as well as what to expect on the exam. This was true for me as well.
 
-I started by signing up for the 30-day free trial and actually ended up watching almost all of their courses on AWS, certs and projects. But I canceled (because I'm cheap) and ended up purchasing their [Solutions Architect course]('https://www.udemy.com/course/aws-certified-solutions-architect-associate/') on udemy for $10.
+I started by signing up for the 30-day free trial and actually ended up watching almost all of their courses on AWS, certs and projects. But I canceled (because I'm cheap) and ended up purchasing their [Solutions Architect course](https://www.udemy.com/course/aws-certified-solutions-architect-associate/) on udemy for $10.
 
 This was my foundation for the whole process. I watched each video at least twice and took notes on every slide.
 
@@ -23,7 +23,7 @@ And do all the labs! I did the VPC labs 4 or 5 times until I could build a VPC f
 
 ### Amazon Certification Prep
 
-Amazon offers a few [resources]('https://aws.amazon.com/certification/certification-prep/'), but it doesn't feel like much. I would download the exam guide and make sure the scope lines up with what I've learned so far.
+Amazon offers a few [resources](https://aws.amazon.com/certification/certification-prep/), but it doesn't feel like much. I would download the exam guide and make sure the scope lines up with what I've learned so far.
 
 Amazon also recommends whitepapers, but I didn't bother finishing any (I started the 5 pillars). These are dry and poorly written in my opinion.
 
@@ -33,7 +33,7 @@ Finally, Amazon offers a $20 practice exam which is highly worth it. However, I 
 
 ### Bonso Practice Exams
 
-Do [these]('https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/'). All of them. I did them twice.
+Do [these](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/). All of them. I did them twice.
 
 Jon Bonso's practice exams were $60, but well worth the price. These are timed exams that loosely simulate the real thing. Honestly, I found them to be much harder than the real thing and I had a very difficult time passing these. I also felt like the scope of his questions was outside of the actual exam. I encountered questions here that were never discussed on ACG (this wasn't true for my exam however).
 
