@@ -30,9 +30,9 @@ function Header({ siteTitle }) {
               src={Peter}
               alt="avatar"
               style={{
-                maxWidth: "50px",
+                maxWidth: "60px",
                 borderRadius: "50%",
-                marginBottom: "-15px",
+                marginBottom: "-20px",
                 marginRight: "15px",
               }}
             />

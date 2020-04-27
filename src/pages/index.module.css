@@ -5,3 +5,22 @@
 .blogTitle h3 {
     color: #333333;
 }
+
+.blogThumbnail {
+}
+
+.blogDescription {
+}
+
+.blogPost {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 680px) {
+    .blogPost {
+        grid-template-columns: auto;
+    }
+}

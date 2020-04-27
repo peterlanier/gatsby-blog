@@ -7,7 +7,7 @@ function Hero({ siteTitle }) {
   return (
     <header
       style={{
-        background: `#eac67a`,
+        background: `#23282E`,
         marginBottom: `1.45rem`,
       }}
     >
@@ -30,18 +30,19 @@ function Hero({ siteTitle }) {
               src={Peter}
               alt="avatar"
               style={{
-                maxWidth: "50px",
+                maxWidth: "64px",
                 borderRadius: "50%",
-                marginBottom: "-15px",
+                marginBottom: "-20px",
                 marginRight: "15px",
+                border: '2px solid white'
               }}
             />
             {siteTitle}
           </Link>
         </h1>
-        <p style={{ color: "white", marginTop: "1.45rem", maxWidth: "30rem" }}>
-          I'm a software engineer and a web developer. I live in Knoxville, TN.
-          This is my blog. You can also visit my portfolio and resume.
+        <p style={{ color: "white", marginTop: "1.45rem", maxWidth: "720px" }}>
+          I'm a software engineer, a web developer, and a father. I'm currently passionate about React & serverless integrations.
+          This is my blog.
         </p>
       </div>
     </header>
