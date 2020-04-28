@@ -1,5 +1,5 @@
 ---
-title: "How to track specific pages in Google Analytics Dashboard."
+title: "How to track specific pages in Google Analytics Dashboard"
 date: "2018-09-07"
 excerpt: "A quick regex guide that covers most use cases for the non-programmer"
 featuredImage: ../images/regex.png
