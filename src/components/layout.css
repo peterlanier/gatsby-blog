@@ -613,3 +613,7 @@ header h1 {
     font-size: 100%;
   }
 }
+
+.gatsby-highlight {
+  margin-bottom: 1.45rem;
+}

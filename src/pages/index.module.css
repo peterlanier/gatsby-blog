@@ -23,4 +23,7 @@
     .blogPost {
         grid-template-columns: auto;
     }
+    .blogThumbnail {
+        margin-bottom: 1rem;
+    }
 }
