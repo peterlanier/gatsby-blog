@@ -1,6 +1,6 @@
 ---
 title: "React Hooks: The State Hook"
-date: "2019-02-12"
+date: "2019-03-08"
 excerpt: "With the introduction of React hooks, you can finally use local state in functional components."
 featuredImage: ../images/react.png
 ---
