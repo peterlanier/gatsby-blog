@@ -41,7 +41,7 @@ function Hero({ siteTitle }) {
           </Link>
         </h1>
         <p style={{ color: "white", marginTop: "1.45rem", maxWidth: "720px" }}>
-          I'm a software engineer, a web developer, and a father. I'm currently passionate about React & serverless integrations.
+          I'm a software engineer, a web developer, and a lifelong learner. I'm currently passionate about React & serverless integrations.
           This is my blog.
         </p>
       </div>
