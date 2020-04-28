@@ -19,7 +19,7 @@ In this example, we'll look at pageviews, but it could be any metric. You'll end
 
 First, go to your GA dashboard and add a new widget. Select Table. Under Display the following columns, select Page. For the metric choose Pageviews. Select the number of rows. Under Filter this data, select: Only show / Page / Regular Expression / and in the final field we'll paste the code we'll create below. 
 
-The code will have the following format: Everything will be in parentheses ```()```. Each page will start with a ```^```, end with a ```$```, and must be keep it's leading slash ```/``` or it won't work. Place called an ```or``` operator between each pattern, which is ```|```. ***Make sure not use use any spaces or it will not work.*** So if the three pages you want to track on your site are:
+The code will have the following format: Everything will be in parentheses ```()```. Each page name will start with a ```^```, end with a ```$```, and must be keep it's leading slash ```/``` or it won't work. Place an ```or``` operator between each 'pattern,' which is ```|```. ***Make sure not use use any spaces or it will not work.*** So if the three pages you want to track on your site are:
 
 ```
 /my-favorite-article 
